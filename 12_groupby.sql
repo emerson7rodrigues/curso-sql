@@ -1,4 +1,15 @@
 --GROUP BY
+
+--EXERCICIOS PRATICOS
+    -- 1. Quantos clientes tem email cadastrado?
+    -- 2. Qual cliente juntou mais pontos positivos em 2025-05?
+    -- 3. Qual cliente fez mais transações no ano de 2024?
+    -- 4. Quantos produtos são de rpg?
+    -- 5. Qual o valor médio de pontos positivos por dia?
+    -- 6. Qual dia da semana quem mais pedidos em 2025?
+    -- 7. Qual o produto mais transacionado?
+    -- 8. Qual o produto com mais pontos transacionado?
+    
 SELECT IdProduto,
         count(*)
 FROM transacao_produto
