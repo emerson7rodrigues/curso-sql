@@ -1,0 +1,20 @@
+--JOIN
+
+--EXERCICIOS JOIN
+     -- 1. Quais clientes mais perderam pontos por Lover?
+     -- 2. Quais clientes assinaram a lista de presença no dia 2025/08/25?
+     -- 3. Do início ao fim do nosso curso (2025/08/25 a 2025/08/29), quantos
+     -- clientes assinaram a lista de presença?
+     -- 4. Clientes mais antigos, tem mais frequência de transação?
+     -- 5. Quantidade de transações Acumuladas ao longo do tempo?
+     -- 6. Quantidade de usuários cadastrados (absoluto e acumulado) ao longo do
+     -- tempo?
+     -- 7. Qual o dia da semana mais ativo de cada usuário?
+     -- 8. Saldo de pontos acumulado de cada usuário
+
+--LEFT JOIN
+SELECT t1.*,
+     t2.DescNomeProduto
+FROM transacao_produto as t1
+LEFT JOIN produtos as t2
+ON t1.IdProduto = t2.IdProduto;
